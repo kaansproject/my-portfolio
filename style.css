@@ -1,4 +1,4 @@
-/* Temel Ayarlar */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigasyon Menüsü */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,12 +42,11 @@ nav ul li a.active {
     border-bottom: 2px solid #3498db;
 }
 
-/* İçerik Konteynırı */
+
 .container {
     padding: 3rem 10%;
 }
 
-/* Hero Bölümü (Giriş) */
 .hero {
     height: 80vh;
     display: flex;
@@ -70,7 +69,7 @@ nav ul li a.active {
     margin-bottom: 2rem;
 }
 
-/* Buton Stili */
+
 .btn {
     display: inline-block;
     background-color: #3498db;
@@ -85,7 +84,7 @@ nav ul li a.active {
     background-color: #2980b9;
 }
 
-/* Proje Kartları */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -113,7 +112,7 @@ nav ul li a.active {
     text-decoration: none;
 }
 
-/* İletişim Bilgileri */
+
 .contact-info {
     margin-top: 20px;
     background: white;
@@ -155,7 +154,7 @@ nav ul li a.active {
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
-/* Üzerine gelince kartın yukarı kayması ve parlaması */
+
 .contact-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
