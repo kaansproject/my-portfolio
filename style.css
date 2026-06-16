@@ -418,3 +418,135 @@ body {
         padding-left: 0;
     }
 }
+
+
+
+
+/* CONTACT PAGE */
+
+
+
+/* ==========================================================================
+   BOUTIQUE / EDITORIAL CONTACT DESIGN (AI-TEMPLATE DETOX)
+   ========================================================================== */
+.contact-section {
+    width: 100%;
+    padding: 140px 0;
+    background-color: #fafafa;
+}
+
+.contact-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+/* Sol Taraf Stilleri */
+.contact-left {
+    width: 50%;
+}
+
+.contact-tag {
+    font-family: SFMono-Regular, Consolas, monospace;
+    font-size: 0.85rem;
+    color: #888888;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.contact-headline {
+    font-size: 2.8rem;
+    color: #111111;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin-bottom: 24px;
+}
+
+.contact-subtext {
+    font-size: 1.05rem;
+    color: #555555;
+    line-height: 1.65;
+}
+
+/* Sağ Taraf Stilleri */
+.contact-right {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.contact-channels {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.channel-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-bottom: 1px solid #e5e5e5; /* Satırları ayıran ince şık çizgi */
+    padding-bottom: 16px;
+}
+
+.channel-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.channel-label {
+    font-family: SFMono-Regular, Consolas, monospace;
+    font-size: 0.75rem;
+    color: #888888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.channel-link {
+    font-size: 1.1rem;
+    color: #111111;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+    display: inline-block;
+}
+
+/* Linklerin üzerine gelince sağa doğru tatlı bir kayma ve renk efekti */
+.channel-link:hover {
+    color: #537895;
+    padding-left: 6px;
+}
+
+.channel-text {
+    font-size: 1.1rem;
+    color: #111111;
+    font-weight: 600;
+}
+
+/* CONTACT PAGE MOBILE */
+
+
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%;
+    }
+
+    .contact-headline {
+        font-size: 2.1rem;
+    }
+}
