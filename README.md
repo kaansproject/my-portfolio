@@ -12,5 +12,5 @@ A modern, responsive, and lightweight 3-page personal portfolio website designed
 3. **Projects & Skills:** A dedicated section highlighting my technical stack, completed works, and active goals like CCNA & Azure certifications.
 
 # ⚙️ How to View
-The project is hosted completely free via **GitHub Pages**. You can visit the live deployment here:
-[Live Project Link 👉](https://kaansproject.github.io/my-portfolio/index.html)
+You can visit my portfolio :
+[Project Link 👉](https://kaansproject.github.io/my-portfolio/index.html)
