@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #c4c4c4; 
+    background-color: #ffffff; 
     color: #333333;
     line-height: 1.6;
 }
 
 
 .navbar {
-    background-color: #73b6fa; 
+    background-color: #82b0df; 
     padding: 15px 0;
     width: 100%;
 }
