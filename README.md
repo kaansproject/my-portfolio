@@ -13,4 +13,4 @@ A modern, responsive, and lightweight 3-page personal portfolio website designed
 
 # ⚙️ How to View
 The project is hosted completely free via **GitHub Pages**. You can visit the live deployment here:
-🚀 [Live Project Link 👉](https://kaansproject.github.io/my-portfolio/)
+🚀 [Live Project Link 👉](https://kaansproject.github.io/my-portfolio/index.html)
