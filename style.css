@@ -1,3 +1,6 @@
+/* INDEX MAIN PAGE */
+
+
 
 * {
     margin: 0;
@@ -235,5 +238,183 @@ body {
 
     .skills-highlight ul li::before {
         display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* EXPERIENCES PAGE */
+
+
+
+
+.work-section {
+    width: 100%;
+    padding: 120px 0;
+    background-color: #fafafa; /* Tamamen temiz, havadar bir arka plan */
+}
+
+.work-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+.work-header {
+    margin-bottom: 80px;
+}
+
+.work-tag {
+    font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; /* Teknik font */
+    font-size: 0.85rem;
+    color: #888888;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.work-headline {
+    font-size: 3rem;
+    color: #111111;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+
+.work-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-row {
+    display: flex;
+    padding: 40px 0;
+    border-top: 1px solid #e5e5e5; 
+    transition: background-color 0.4s ease;
+}
+
+
+.work-list .work-row:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.work-meta {
+    width: 25%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.work-time {
+    font-family: SFMono-Regular, Consolas, monospace;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #111111;
+}
+
+.work-status {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+    font-weight: 500;
+}
+
+
+.work-info {
+    width: 75%;
+    padding-left: 20px;
+}
+
+.work-role {
+    font-size: 1.4rem;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 4px;
+    letter-spacing: -0.3px;
+}
+
+.work-location {
+    font-size: 0.95rem;
+    color: #666666;
+    display: block;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.work-description {
+    font-size: 1.02rem;
+    color: #444444;
+    line-height: 1.65;
+    margin-bottom: 24px;
+    max-width: 680px;
+}
+
+
+.work-techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.work-techs span {
+    font-family: SFMono-Regular, Consolas, monospace;
+    font-size: 0.8rem;
+    color: #537895; 
+    background-color: rgba(83, 120, 149, 0.06); 
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* Mobile */
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .work-section {
+        padding: 60px 0;
+    }
+    
+    .work-headline {
+        font-size: 2.2rem;
+    }
+    
+    .work-header {
+        margin-bottom: 40px;
+    }
+
+    .work-row {
+        flex-direction: column; 
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .work-meta {
+        width: 100%;
+    }
+
+    .work-info {
+        width: 100%;
+        padding-left: 0;
     }
 }
